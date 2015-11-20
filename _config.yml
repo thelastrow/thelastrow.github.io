@@ -1,33 +1,30 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://blog.thelastrow.lk" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
+  title: Thelastrow.lk blog
+  avatar: tlr_logo.jpg
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Official blog of thelastrow.lk" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  header_text:
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   <a href="https://www.thelastrow.lk">www.thelastrow.lk</a>
 
   # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: true
+  email_address: "admin@thelastrow.lk"
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: "https://www.facebook.com/thelastrow"
   flickr:
-  github: "rohanchandra/type-theme"
+  github:
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -37,14 +34,14 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "thelastrow"
   wordpress:
   youtube:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
-  katex: true # Enable if using math markup
+  katex: false # Enable if using math markup
 
   # Localization strings
   str_follow_on: "Follow on"
@@ -59,11 +56,11 @@ theme:
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
   
   # Post navigation
-  post_navigation: false
+  post_navigation: true
 
 # PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
+paginate: 10
+paginate_path: "page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
